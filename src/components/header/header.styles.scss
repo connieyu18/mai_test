@@ -1,0 +1,27 @@
+.navbar {
+  height: 14vh;
+  background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);
+  border-bottom-left-radius: 3rem;
+  width: 100vw;
+  z-index: 3;
+  li a {
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 700;
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    position: relative;
+    width: 100vw;
+    display: block;
+    li a {
+      font-size: 1.2rem;
+      font-weight: 800;
+      color: #1f5257;
+    }
+    .nav-mobile {
+      margin-left: 2rem;
+    }
+  }
+}

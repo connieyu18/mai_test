@@ -1,0 +1,15 @@
+.sort-by {
+  input:focus,
+  select:focus,
+  select:active,
+  textarea:focus,
+  button:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+  }
+  select {
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+  }
+}
